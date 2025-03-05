@@ -12,3 +12,19 @@ Here’s the flow: you pick an image, type your password, and decide if you wann
 When it’s time to pull your data back out, you load up the image, punch in the password, and the app digs through the pixels to pull out the hidden bits, decrypts them, and gives you your goodies back. If the password’s wrong or someone messes with the image? Forget it. It just won’t work.
 
 Basically, it’s like turning any ordinary image into a locked vault. But instead of looking like a vault, it still looks like your average cat photo. Nobody’s ever gonna know unless you tell ‘em.
+
+# How To
+## Requirements
+- Python 3.11+
+- Python3-venv
+
+## Install & Run
+
+```bash
+$ git clone https://github.com/Piccolino1965/steganography.git
+$ cd steganography
+$ python3 -m venv venv
+$ source venv/bin/activate
+(venv) $ pip install -r requirements.txt
+(venv) $ python steganografia-testo-file.py
+```
